@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Page</title>
+    <meta name="page about HTML" content="HTML learning">
+</head>
+<body>
+Here we will learn some HTML stuff
+
+<h2>Lets make some <i><u>paragraphs</u></i></h2>
+<p id="mysection2"></p>
+<p>This is first paragraph and here is nothing to see</p>
+
+<p>Here is another one, but here we can see, that browser
+    ignores     extra spaces</p>
+
+<hr>
+
+<h2> Lets add some <i>formating</i></h2>
+
+<p>If we would like to make text <b>bold</b> then we use the <b>b</b> tag
+
+<p>Or you can use <i>i</i> tag to make text <i>italic</i></p>
+
+<p>Also you can <u>underline</u> text using <u>u</u> tag</p>
+
+<p>to make some<sup>superscript<sup>you can use<sup>sup</sup></sup></sup> tag</p>
+
+<p>or if you want to<sub>make subscript<sub>you can use<sup>not sup<sup>tag</sup> but sub</sup></sub></sub>tag</p>
+
+<p>Now lets <u><b>summarise</b></u> every tag we <i><b>learnt</b></i> <sub>in</sub> <sup>one</sup> text</p>
+
+<hr>
+
+<h2>More Formating</h2>
+<p>We can use some special symbols using their <b>code</b> or <b>name</b></p>
+<p>&#9999; &#999;</p>
+
+<pre>We can
+           write like
+     Mayakovsky
+            using <i>pre</i> tag</pre>
+<!--no one will see this text in browser, cause it is comment-->
+
+<hr>
+
+<h2>Now we will break down some <i>links</i></h2>
+
+<p><a href="https://thatsthefinger.com/">click</a> you can give different names to you link</p>
+
+<p>we can create links inside our site</p>
+
+<a name="mysection1"></a>
+
+<a href="./MyPage.html#mysection1"> section1</a>
+<a href="#mysection2">section2</a>
+
+<a href="mailto:henryk.ciechanowiec@gmail.com?subject=An important message&body=Not really that important">email me</a>
+
+<p><a href="https://checkbox.toys/" title="test your mouse speed">tester</a></p>
+
+<hr>
+
+<h2>Images<sub><img src="./img/ILTQq.png" alt="linux" height="40"></sub></h2>
+
+<img src="./img/skateboard.png" alt="skateboard" height="60px">
+
+<p>We can change images size</p>
+
+<img src="./img/rabbit.png" alt="rabbit" height="40" width="100">
+
+<img src="./img/rabbit.png" alt="rabbit" height="100" width="40">
+
+<p>you can put links inside your images
+    <a href="https://www.google.com/"><img src="./img/google.png" alt="google" height="100"></a> <- click here</p>
+
+<hr>
+
+<h2>Lists</h2>
+
+<p>The are 2 types of lists</p>
+
+<ol>
+    <li>ordered</li>
+    <li>unordered</li>
+</ol>
+
+<p>we can change types of lists</p>
+
+<p>there are different types in ordered lists:</p>
+<ol type="A">
+    <li>a for alphanumeric</li>
+    <li>A for uppercase alphanumeric</li>
+    <li>i for roman numerals</li>
+    <li>I for uppercase roman numerals</li>
+</ol>
+
+<p>and in unordered lists:</p>
+
+<ul type="square">
+    <li>square for square bullets</li>
+    <li>disk for disks bullets</li>
+    <li>circle for circles bullets</li>
+</ul>
+
+<ol reversed start="6">
+    <li>there</li>
+    <li>are</li>
+    <li>a lot</li>
+    <li value="8">of opportunitys</li>
+    <li>to
+        <ol type="i">
+            <li>play</li>
+            <li>with</li>
+            <li>lists</li>
+        </ol>
+    </li>
+    <li>really</li>
+    <li>a lot</li>
+</ol>
+
+<dl>
+    <dt>You can</dt>
+        <dd>create</dd>
+
+    <dt>Definition</dt>
+        <dd>Lists</dd>
+</dl>
+
+<hr>
+
+<h2>time for tables</h2>
+
+<table border="black">
+    <tr>
+        <td colspan="2" rowspan="2">32%</td>
+        <td>8%</td>
+    </tr>
+    <td>8%</td>
+    <tr>
+        <td>8%</td>
+        <td colspan="2">16%</td>
+    </tr>
+    <tr>
+        <td>8%</td>
+        <td>8%</td>
+        <td>8%</td>
+    </tr>
+</table>
+</body>
+</html>
