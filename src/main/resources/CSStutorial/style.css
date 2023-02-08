@@ -1,0 +1,16 @@
+h1 {
+    font-family: Verdana;
+    font-weight: lighter;
+    color: #9ACA42;
+    padding: 5px 5px 15px 5px;
+    margin: 5px 5px 15px 5px;
+    background-color: #357180;
+    font-size: 40px
+}
+
+p {
+    font-family: Verdana;
+    color: #357180;
+    border: 1px dashed #4D8353;
+    font-size: 20
+}
